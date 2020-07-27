@@ -1,0 +1,40 @@
+{
+  "name": "daxemote",
+  "version": "0.0.1",
+  "description": "Discord emoji packs manager.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm i -s -g",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DannyyDev/daxemote.git"
+  },
+  "keywords": [
+    "emote",
+    "discord",
+    "pack",
+    "emoji",
+    "image"
+  ],
+  "author": "Daniel Benitez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DannyyDev/daxemote/issues"
+  },
+  "homepage": "https://github.com/DannyyDev/daxemote#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.4",
+    "pm2": "^4.4.0"
+  }
+}

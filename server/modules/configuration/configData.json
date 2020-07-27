@@ -1,0 +1,9 @@
+{
+	"token": "NzM3MjA3Mjg1NjA4MDg3NTc0.Xx5_yQ.TYfs_UzhRxFmAh7lLHUEuIPgFLs",
+	"port": 3000,
+	"clientSecret": "Fa0N_11RCn_2qoKpuVmZueFPFRLk0Mw3",
+	"clientID": "737207285608087574",
+	"callbackURL": "http://localhost:3000/callback",
+	"scopes": ["identify", "guilds"],
+	"prefix": "!"
+}
